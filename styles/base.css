@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'MiFuente'; /* Nombre que le das a la fuente personalizada */
-    src: url('tu-fuente.woff') format('woff'), /* URL del archivo de fuente WOFF */
-         url('tu-fuente.ttf') format('truetype'); /* URL del archivo de fuente TTF (opcional) */
-}
-  
 body {
-    font-family: 'MiFuente', sans-serif; /* Utiliza la fuente personalizada como primera opción */
+    font-family: "Sedan", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/* Utiliza la fuente personalizada como primera opción */
 }
 
 
