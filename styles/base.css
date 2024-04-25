@@ -66,9 +66,9 @@ nav a:hover {
 
 
 
-
-
-
+.box {
+	display: flex;
+}
 
 
 
