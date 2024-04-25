@@ -92,3 +92,15 @@ nav a:hover {
 a {
     text-decoration: none; /* Quita el subrayado de los enlaces */
 }
+
+
+footer {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+	color: #000000;
+	background-color: #36454f;
+	font-weight: 800;
+}
