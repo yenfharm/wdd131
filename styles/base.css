@@ -42,11 +42,6 @@ h1 {
 	font-size: 2rem;
 }
 
-nav {
-	background-color: #36454f;
-	margin: 0 auto;
-	max-width: 800px;
-}
 nav ul {
 	list-style-type: none;
 }
@@ -56,6 +51,9 @@ nav a {
 	color: #fff;
 	text-align: center;
 	padding: 1rem;
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
 }
 
 nav a:hover {
