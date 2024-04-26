@@ -19,10 +19,9 @@ img {
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: #0800ffbb;
 	display: block;
 	padding: 15px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 
@@ -101,6 +100,6 @@ footer {
     align-content: center;
     align-items: center;
 	color: #000000;
-	background-color: #36454f;
+	background-color: #0800ffbb;
 	font-weight: 800;
 }
