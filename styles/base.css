@@ -76,7 +76,14 @@ nav a:hover {
     background-color: #f0f0f0;
     padding: 20px;
     margin-bottom: 20px;
+	display: table-cell;
   }
+
+
+.just {
+	display: table-cell;
+	padding: 20px;
+}
 
   .tarjeta h2 {
     color: #333;
