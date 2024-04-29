@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+    header{
+        color: rgb(149, 0, 255);
+    }
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        background-color: rgb(255, 255, 255);
+        color: rgb(6, 86, 97);
+    }
+  }
