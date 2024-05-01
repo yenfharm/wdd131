@@ -17,7 +17,7 @@ listBtn.style.color = 'red';
 list.append(listItem);
   
 listBtn.addEventListener('click', () => {
-list.remove(listItem);
+list.removeChild(listItem);
 });
   
 input.focus();
