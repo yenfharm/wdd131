@@ -18,11 +18,6 @@ header {
 	box-shadow: 0 0 30px #333;
 }
 
-/* header,
-main {
-	margin: 0 auto;
-} */
-
 h1 {
 	font-size: 2rem;
 }
@@ -32,20 +27,6 @@ nav {
 	display: flex;
 	flex-direction: column;
 }
-
-/* nav a {
-	display: block;
-	color: #ec1515;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-}
-
-nav a:hover {
-	text-decoration: underline double;
-} */
-
-
 
 /* small view navigation */
 #menu {
@@ -103,10 +84,6 @@ footer {
 	font-weight: 800;
 }
 
-/* img {
-    width: 20cm;
-} */
-
 figure {
     display: inline-grid;
     margin: 2rem;
@@ -114,6 +91,10 @@ figure {
 }
 
 figure img {
-    width: 312px; /* Ajusta el ancho de las imágenes */
+    width: 400px; /* Ajusta el ancho de las imágenes */
     height: auto; 
+}
+
+main {
+    text-align: -webkit-center;
 }
