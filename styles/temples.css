@@ -45,9 +45,10 @@ h1 {
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
-	color: #000000;
+	color: #ffffff;
     font-size: large;
     font-weight: 700;
+    background-color: #333;
 }
 .navigation a:hover {
 	font-weight: 800;
