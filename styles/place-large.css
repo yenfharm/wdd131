@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    .img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}  
+  /* Styles for screens narrower than 768px */
+@media (max-width: 767px) {
+    .img {
+        width: 90%;
+    }
+}
