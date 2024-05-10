@@ -11,7 +11,7 @@ body {
 h1, h2{
     color: var(--primary-color);
 }
-h2:hover {
+h2::after {
     color: var(--secondary-color-after);
 }
 header {
