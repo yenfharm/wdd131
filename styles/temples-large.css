@@ -23,7 +23,7 @@
 		text-align: center;
 	}
 	#menu {
-		display: none; /* hide hamburger button */
+		display: none;
 	}
 	.navigation {
 		flex-direction: row;

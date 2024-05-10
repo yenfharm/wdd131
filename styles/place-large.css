@@ -7,7 +7,6 @@
         margin: 0 auto;
     }
 }  
-  /* Styles for screens narrower than 768px */
 @media (max-width: 767px) {
     .img {
         width: 90%;
