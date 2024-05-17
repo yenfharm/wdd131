@@ -109,7 +109,7 @@ temples.forEach(temple => {
   const image = document.createElement('img');
   image.src = temple.imageUrl;
   image.alt = temple.templeName;
-  image.loading = 'lazy'; // Utilice carga diferida nativa
+  image.loading = 'lazy';
   card.appendChild(image);
 
   templeCards.appendChild(card);
