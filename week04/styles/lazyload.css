@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* .imagenes-producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagenes-producto img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 10px;
+} */
+
+.imagenes-producto {
+    width: 100%;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+footer {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+	color: #000000;
+	background-color: #3d38ccbb;
+	font-weight: 800;
+}
