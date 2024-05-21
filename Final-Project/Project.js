@@ -120,3 +120,8 @@ function textReplace(words, targetElement, rate) {
 
   const interval = setInterval(changeWordWithAnimation, rate);
 }
+document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+
+  // Update the last modified date
+const lastModified = document.lastModified;
+document.getElementById("lastModified").innerHTML = `Last modified on: ${lastModified}`;
