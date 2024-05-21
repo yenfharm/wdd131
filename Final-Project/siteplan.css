@@ -1,0 +1,10 @@
+header {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+button {
+    width: 150px;
+    height: 150px; 
+    font-size: 30px;
+}
