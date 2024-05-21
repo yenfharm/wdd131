@@ -3,8 +3,8 @@ header {
     right: 10px;
     top: 10px;
 }
-button {
-    width: 150px;
-    height: 150px; 
-    font-size: 30px;
+.box {
+    display: flex;
+    flex-direction: column; /* Posiciona las imágenes en una columna */
+    align-items: center; /* Centra las imágenes horizontalmente */
 }
