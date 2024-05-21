@@ -213,7 +213,7 @@
 
     & tr:hover td {
       color: var(--brand-1);
-       background-color: white;
+      background-color: white;
     }
 
     @media (width > 768px) {

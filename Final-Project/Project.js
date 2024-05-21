@@ -9,37 +9,30 @@ openMenuBtn.addEventListener('click', () => {
 closeMenuBtn.addEventListener('click', () => {
   handleViewTransition(closeMenu);
 });
-
 // Close menu by Press Escape(ESC)
 function handleCloseWithESC(e) {
   if (e.key == 'Escape') {
     handleViewTransition(closeMenu);
   }
 }
-
 function openMenu() {
   menu.classList.add('open');
   closeMenuBtn.focus();
   window.addEventListener('keyup', handleCloseWithESC);
 }
-
 function closeMenu() {
   menu.classList.remove('open');
   openMenuBtn.focus();
   window.removeEventListener('keyup', handleCloseWithESC);
 }
-
 function handleViewTransition(updateDom) {
   if (!document.startViewTransition) updateDom();
   else document.startViewTransition(() => updateDom());
 }
-
 document.querySelectorAll('.NavLink').forEach((link) => {
   link.addEventListener('click', () => handleViewTransition(closeMenu));
 });
-
 //  Scroll Animation
-
 let scrollDirection;
 const nav = document.querySelector('.Navbar');
 document.addEventListener(
@@ -56,7 +49,6 @@ document.addEventListener(
     passive: true,
   }
 );
-
 function addRevealEffect(elements) {
   const observer = new IntersectionObserver(
     (entries) => {
@@ -91,7 +83,6 @@ let rate = NORMAL_PLAYBACK_RATE;
 
 const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 if (mediaQuery.matches) rate = REDUCED_PLAYBACK_RATE;
-
 const words = [
   'passion',
   'success',
@@ -101,9 +92,7 @@ const words = [
   'energy',
   'opportunity',
 ];
-
 textReplace(words, 'target-word', rate);
-
 function textReplace(words, targetElement, rate) {
   let wordIndex = 0;
 
