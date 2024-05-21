@@ -76,7 +76,7 @@ div.temple-card {
 }
 div.temple-card img{
     width: 400px;
-    height: auto;
+    height: 300px;
 	box-shadow: 0 0 30px #777;
 	margin-top: 1rem;
 }

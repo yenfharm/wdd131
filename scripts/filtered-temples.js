@@ -68,20 +68,36 @@ const temples = [
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     {
-    templeName: "Payson Utah",
-    location: "Payson, Utah, United States",
-    dedicated: "2015, June, 7",
+    templeName: "Anchorage",
+    location: "Alaska",
+    dedicated: "1999, June, 7",
     area: 96630,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+    "https://www.churchofjesuschrist.org/imgs/9591632feb8a8e4221de920d9bf78b23b950a5e0/full/1600%2C/0/default"
 },
 {
-    templeName: "Aba Nigeria",
-    location: "Aba, Nigeria",
-    dedicated: "2005, August, 7",
+    templeName: "Accra",
+    location: "Africa, Ghana",
+    dedicated: "2004, August, 7",
     area: 11500,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+},
+{
+    templeName: "Berna Suiza",
+    location: "Suiza",
+    dedicated: "1995, September, 11",
+    area: 11500,
+    imageUrl:
+    "https://www.churchofjesuschrist.org/imgs/d987d547ea75e1556e719efd8cf1a3067cfc40c4/full/1920%2C/0/default"
+},
+{
+    templeName: "Buenos Aires Argentina",
+    location: "Argentina",
+    dedicated: "1986, January, 17",
+    area: 11500,
+    imageUrl:
+    "https://www.churchofjesuschrist.org/imgs/396dd44dcb8c55b10150bae7f3916389465acc0d/full/1600%2C/0/default"
 },
 ];
 const templeCards = document.getElementById('temple-cards');
