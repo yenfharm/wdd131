@@ -43,7 +43,7 @@ body {
     margin-right: 5px;
   }
   button {
-    background-color: #4CAF50;
+    background-color: #1841bb;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -52,7 +52,7 @@ body {
     font-size: 16px;
   }
   button:hover {
-    background-color: #45a049;
+    background-color: #5c50ca;
   }
 
 
