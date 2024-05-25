@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="author" content="Yenfhael Armas">
+    <meta name="description" content="form">
+
+    <link rel="stylesheet" href="./styles/form.css">
+    <script src="./scripts/form.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Product Review</h2>
+        <form>
+          <label for="product-name">Product Name:</label>
+          <select id="product-name">
+            <option value="">Choose a Product...</option>
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <option value="product3">Product 3</option>
+          </select>
+    
+          <label for="rating">Overall Rating:</label>
+          <div class="rating">
+            <input type="radio" name="rating" id="rating-1" value="1" class="star">
+            <label for="rating-1">☆</label>
+    
+            <input type="radio" name="rating" id="rating-2" value="2" class="star">
+            <label for="rating-2">☆☆</label>
+    
+            <input type="radio" name="rating" id="rating-3" value="3" class="star">
+            <label for="rating-3">☆☆☆</label>
+    
+            <input type="radio" name="rating" id="rating-4" value="4" class="star">
+            <label for="rating-4">☆☆☆☆</label>
+    
+            <input type="radio" name="rating" id="rating-5" value="5" class="star">
+            <label for="rating-5">☆☆☆☆☆</label>
+          </div>
+    
+          <label for="date">Date of Installation:</label>
+          <input type="date" id="date" name="date">
+    
+          <label>Which features did you find useful in the product?</label>
+          <input type="checkbox" name="feature" id="durability">
+          <label for="durability">Durability</label><br>
+    
+          <input type="checkbox" name="feature" id="ease-of-use">
+          <label for="ease-of-use">Ease of Use</label><br>
+    
+          <input type="checkbox" name="feature" id="performance">
+          <label for="performance">Performance</label><br>
+    
+          <input type="checkbox" name="feature" id="design">
+          <label for="design">Design</label><br>
+    
+          <label for="review">Written Review (Optional):</label>
+          <textarea id="review" name="review"></textarea>
+    
+          <label for="name">Your Name (Optional):</label>
+          <input type="text" id="name" name="name">
+    
+          <button type="submit">Post Review</button>
+        </form>
+      </div>
+
+
+
+
+    <footer>
+
+        <p>Copyright &copy; <span id="currentyear">2024</span> Yenfhael Armas - Carabobo, Venezuela</p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+</html>
